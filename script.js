@@ -1,4 +1,4 @@
-const API_KEY = 'DIN_API_KEY_HÄR';
+const API_KEY = 'a55465cd2cee2fb9362ee4d5f13ba124';
 const BASE_URL = 'https://v3.football.api-sports.io';
 
 const LEAGUE_ID = 203;  // Allsvenskan
