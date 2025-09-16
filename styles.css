@@ -1,0 +1,87 @@
+/* Enkel och modern design med Google Font Inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f8fa;
+  margin: 0;
+  padding: 20px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #212121;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+header p {
+  font-weight: 400;
+  color: #555;
+  margin-top: 6px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 40px 0;
+  color: #007bff;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #d32f2f;
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.player-card {
+  background: white;
+  padding: 18px 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+  border-left: 6px solid #007bff;
+  transition: box-shadow 0.3s ease;
+}
+
+.player-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.player-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: #212121;
+}
+
+.player-details {
+  font-size: 0.9rem;
+  color: #555;
+}
+  
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+}
